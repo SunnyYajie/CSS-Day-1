@@ -1,0 +1,130 @@
+/*Universal Selector*/
+* {
+    padding: 10;
+    margin: 10;
+}
+
+/*Attribute Selector*/
+body {
+    background-color: azure;
+}
+a[href="#webforms"] {
+    background-color: burlywood;
+}
+input[type="button"] {
+    background-color: rgb(0, 163, 150);
+}
+input:hover{
+    background-color: rgb(241, 95, 59);
+}
+
+/*Class Selector*/
+.bougsh, h2, h3 {
+    color: lightcyan;
+    background-color: turquoise;
+}
+.Solid{
+    text-decoration: solid;
+}
+.Underline{
+    text-decoration: underline;
+}
+.Linethrough{
+    text-decoration: line-through;
+}
+.Uppercase{
+    text-transform: uppercase;
+}
+.Lowercase{
+    text-transform: lowercase;
+}
+.Capitalize{
+    text-transform: capitalize;
+}
+.Right{
+    text-align: right;
+}.Center{
+    text-align: center;
+}
+.Left{
+    text-align: left;
+}
+.Indent{
+    text-indent: 3rem;
+}
+.Lheight{
+    line-height: 2rem;
+}
+.Lheight2{
+    line-height: 4px;
+}
+.Lspacing{
+    letter-spacing: 2px;
+}
+.Lspacing2{
+    letter-spacing: .4rem;
+}
+.Wspacing{
+    word-spacing: .5rem;
+}
+.Wspacing2{
+    word-spacing: 1rem;
+}
+.Fweight3{
+    font-weight: 300;
+}
+.Fweight4{
+    font-weight: 400;
+}
+.Fweight5{
+    font-weight: 500;
+}
+.Fweight8{
+    font-weight: 800;
+}
+.FweightL{
+    font-weight: lighter;
+}
+.FweightB{
+    font-weight: bold;
+}
+.Italic{
+    font-style: italic;
+}
+.Normal{
+    font-style: normal;
+}
+.Oblique{
+    font-style: oblique;
+}
+.Ffamily{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Pwidth{
+    width: 80rem;
+    text-align: center;
+}
+.Cwidth{
+    width: 80%;
+    text-align: center;
+}
+.UsingRem{
+    font-size: 1.5rem;
+}
+.UsingEm{
+    font-size: 1.5em;
+}
+
+
+
+/*id Selector*/
+#bougsh2 {
+    color: #ffb6c1;
+    background-color: #ff6a81;
+}
+
+/* Child Selector */
+div > label{
+    color: #a34250;
+}
+
